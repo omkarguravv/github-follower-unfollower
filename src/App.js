@@ -1,13 +1,23 @@
-import './App.css';
-import Home from './components/Home'
-import Demo from './components/Demo';
+// import Main from './components/Main';
+// import ListUser from './components/ListUser';
+import Main from './components/Main';
 
 function App() {
   return (
-    <>
-      <Home/>
-      {/* <Demo/> */}
-    </>
+
+    <div className=" h-screen bg-gray-800  text-white  ">
+
+
+      <Main/>
+
+      {/* <ListUser /> */}
+
+
+
+
+    </div>
+
+
   );
 }
 
