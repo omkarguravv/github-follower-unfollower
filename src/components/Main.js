@@ -147,7 +147,7 @@ function Main() {
                 <button
                     className='bg-blue-500 hover:bg-blue-700 text-white font-bold  px-2 rounded-full w-20  '
                     onClick={handleSubmit}
-                >{loading ? "searching...." : "serach"}</button>
+                >{loading ? "searching.." : "serach"}</button>
             </form>
 
             <br />
