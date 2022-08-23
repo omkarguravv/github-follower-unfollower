@@ -147,34 +147,34 @@ function Main() {
                 <button
                     className='bg-blue-500 hover:bg-blue-700 text-white font-bold  px-2 rounded-full w-20  '
                     onClick={handleSubmit}
-                >{loading ? "searching.." : "serach"}</button>
+                >{loading ? "searching.." : "search"}</button>
             </form>
 
             <br />
 
 
-
             <div className=' overflow-auto relative mx-5   '>
 
-                <div className='grid grid-flow-col place-items-center '>
-                    <h3 className='sticky top-0 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2'>Followers   {followers.length}</h3>
+<div className='grid grid-flow-col place-items-center '>
+    <h3 className='sticky top-0 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2'>Followers   {followers.length}</h3>
 
-                    <h3 className='sticky top-0 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2'>Following {following.length}</h3>
+    <h3 className='sticky top-0 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2'>Following {following.length}</h3>
 
-                    <h3 className='sticky top-0 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2'>Doesn't Follow Back {doesntFollowBack.length}</h3>
+    <h3 className='sticky top-0 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2'>Doesn't Follow Back {doesntFollowBack.length}</h3>
 
-                    <h3 className='sticky top-0 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2'>You Don't Follow Back {youDontFollowBack.length}</h3>
+    <h3 className='sticky top-0 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2'>You Don't Follow Back {youDontFollowBack.length}</h3>
 
-                </div>
+</div>
 
-                <div className=' h-96 grid grid-flow-col place-items-center overflow-auto relative '>
+<div className=' h-96 grid grid-flow-col place-items-center overflow-auto relative '>
 
-                    <div className=' h-96 overflow-auto relative' >  {followers.map(renderFollowers)}</div>
-                    <div className='h-96 overflow-auto relative' >  {following.map(renderFollowing)}</div>
-                    <div className='h-96 overflow-auto relative'>  {doesntFollowBack.map(a)}</div>
-                    <div className='h-96 overflow-auto relative'>  {youDontFollowBack.map(b)}</div>
-                </div>
-            </div>
+    <div className=' h-96 overflow-auto relative' >  {followers.map(renderFollowers)}</div>
+    <div className='h-96 overflow-auto relative' >  {following.map(renderFollowing)}</div>
+    <div className='h-96 overflow-auto relative'>  {doesntFollowBack.map(a)}</div>
+    <div className='h-96 overflow-auto relative'>  {youDontFollowBack.map(b)}</div>
+</div>
+</div>
+ 
 
 
             <div className=' flex justify-center  text-2xl my-4'>
