@@ -1,14 +1,14 @@
 # Check your github followers!
 
 
-###[Check out the site here!](https://github-followers-unfollowers.netlify.app/)
+[Check out the site here!](https://github-followers-unfollowers.netlify.app/)
 ---
 
   <img src="./img/project.jpg" alt="">
   <img src="./img/followers.jpg" alt="">
 
 ---
-###Contributors: 
+**Contributors:**
 <a href="https://github.com/omkarguravv/github-follower-unfollower">
 
 
